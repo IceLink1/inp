@@ -1,0 +1,79 @@
+body {
+    background: #425e58;
+}
+
+.div {
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 220px 0px 0px 580px;
+    box-shadow: 0px 0px 25px 10px rgb(36, 36, 36);
+    transition: 0.6s;
+    
+}
+
+input {
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    background: #425e58;
+    outline: none;
+    margin: 42px 0px 0px 26px;
+    border: none;
+    border: 1px solid black;
+    /* cursor: none; */
+}
+
+.y1 {
+    position: absolute;
+    top: 345px;
+    left: 631px;
+    transition: 0.5s;
+    background: #425e58;
+    border-radius: 3px;
+    width: 95px;
+    text-align: center;
+    animation: 0.5s myanima ;
+    /* cursor: none; */
+}
+
+.y2 {
+    position: absolute;
+    top: 270px;
+    left: 630px;
+    transition: 0.5s;
+    background: #425e58;
+    border-radius: 3px;
+    width: 75px;
+    text-align: center;
+    animation: 0.5s myanima ;
+
+    /* cursor: none; */
+}
+
+.anima1 {
+    top: 331px;
+    left: 650px;
+}
+
+.anima2 {
+    top: 255px;
+    left: 648px;
+}
+.div:hover{
+    box-shadow: 0px 0px 10px 0px rgb(36, 36, 36); 
+}
+.jojo{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    animation: ok 0.5s;
+}
+@keyframes ok{
+    from{
+        height: 0;
+    }
+    to{
+        height: 20px;
+    }
+}
